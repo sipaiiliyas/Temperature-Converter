@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: "Merriweather", serif;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(
+          45deg,
+          hsl(240deg 100% 20%) 0%,
+          hsl(281deg 100% 21%) 8%,
+          hsl(304deg 100% 23%) 17%,
+          hsl(319deg 100% 30%) 25%,
+          hsl(329deg 100% 36%) 33%,
+          hsl(336deg 100% 41%) 42%,
+          hsl(346deg 83% 51%) 50%,
+          hsl(3deg 95% 61%) 58%,
+          hsl(17deg 100% 59%) 67%,
+          hsl(30deg 100% 55%) 75%,
+          hsl(40deg 100% 50%) 83%,
+          hsl(48deg 100% 50%) 92%,
+          hsl(55deg 100% 50%) 100%
+        );
+      
+}
+.container{
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+  /* background-image: linear-gradient(
+          0deg,
+          hsl(182deg 89% 52%) 2%,
+          hsl(183deg 88% 55%) 47%,
+          hsl(183deg 87% 59%) 60%,
+          hsl(184deg 87% 62%) 68%,
+          hsl(185deg 86% 66%) 73%,
+          hsl(185deg 85% 70%) 77%,
+          hsl(186deg 83% 73%) 81%,
+          hsl(187deg 81% 77%) 83%,
+          hsl(187deg 78% 81%) 86%,
+          hsl(188deg 74% 84%) 88%,
+          hsl(189deg 68% 88%) 90%,
+          hsl(189deg 56% 92%) 94%,
+          hsl(190deg 25% 95%) 100%
+        );*/
+}
+.header{
+    margin-bottom: 15px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    border-radius: 10px 10px 0 0;
+}
+label{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    display: block;   
+    color: #070f4e;
+    font-weight: 800;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: none;
+    outline: none;
+}
+.input3{
+    margin-bottom: 10px;
+  
+}
